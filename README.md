@@ -23,17 +23,12 @@ Storage and retrieval of the user's information as well as their bills.
 Maintain user's records with details such as type of bill(Water, Electricity, Internet), provider, amount payed, due_date and any additional relevant data.
 
 ### Technical Details
-Built in Python using object-oriented principles.
-
-Base Bill class with specialized subclasses:
-
-ElectricityBill (tracks kWh usage)
-
-WaterBill (tracks cubic meter consumption)
-
-InternetBill (tracks data usage in GB)
-
-Polymorphism allows uniform handling of different bill types for calculation and display.
+* Built in Python using object-oriented principles.
+* Base Bill class with specialized subclasses:
+   * ElectricityBill (tracks kWh usage)
+   * WaterBill (tracks cubic meter consumption)
+   * InternetBill (tracks data usage in GB)
+* Polymorphism allows uniform handling of different bill types for calculation and display.
 ## Getting started
 
 ## Prerequisites
