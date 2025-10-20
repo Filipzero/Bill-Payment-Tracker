@@ -13,15 +13,27 @@ This system provides key features such as:
 The name that the user chooses is unique in the database. 
 Every bill and payment that is being stored will be associated with the specific name given.
 
-<h4>3. Monthly expenses calculation</h4>
+<h4>2. Monthly expenses calculation</h4>
 
 Searches the database for the month and year that the user has chosen and calculates their monthly expenses.
 
-<h4>2. Billing and payment history tracking</h4>
+<h4>3. Billing and payment history tracking</h4>
 
 Storage and retrieval of the user's information as well as their bills.
 Maintain user's records with details such as type of bill(Water, Electricity, Internet), provider, amount payed, due_date and any additional relevant data.
 
+### Technical Details
+Built in Python using object-oriented principles.
+
+Base Bill class with specialized subclasses:
+
+ElectricityBill (tracks kWh usage)
+
+WaterBill (tracks cubic meter consumption)
+
+InternetBill (tracks data usage in GB)
+
+Polymorphism allows uniform handling of different bill types for calculation and display.
 ## Getting started
 
 ## Prerequisites
