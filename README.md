@@ -1,4 +1,4 @@
-# Billing-Payment-Tracker
+# Billing & Payment-Tracker
 This project is a command line application built using python that helps keep track of bills like Internet, Water and Electricity. Each user in the system is unique and has their own set of bills which are categorized accordingly. Each bill has its own attribute that sets it apart like electricity bills that track the kWh usage, water bills that track cubic meter consumption and internet bills that track data usage in GB. 
 
 This system provides key features such as:
