@@ -4,9 +4,9 @@ This project is a command line application built using python that helps keep tr
 ### Features
 This system provides key features such as:
 
-* **User based bill management**
-* **Monthly expenses calculation**
-* **Billing and payment history tracking**
+1. **User based bill management**
+2. **Monthly expenses calculation**
+3. **Billing and payment history tracking**
 
 <h4>1. User based bill management</h4>
 
